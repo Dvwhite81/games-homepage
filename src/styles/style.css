@@ -48,7 +48,8 @@
 
 /* Main container */
 body {
-  background-color: var(--light-blue-bg);
+  background-image: url(/wall-background.jpg);
+  background-size: cover;
   display: grid;
   grid-template-rows: 10vh 90vh;
   height: 100vh;
@@ -57,6 +58,7 @@ body {
 }
 
 #main-h1 {
+  color: ghostwhite;
   font-size: xx-large;
 }
 
