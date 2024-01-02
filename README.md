@@ -1,3 +1,3 @@
-# vite-template
+# games-homepage
 
-Vite Template
+Landing page for games I've made.

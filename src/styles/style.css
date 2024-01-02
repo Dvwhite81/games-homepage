@@ -46,28 +46,36 @@
   --light-blue-bg: skyblue;
 }
 
-.hide {
-  display: none !important;
-}
-
-.two-columns {
-  grid-template-columns: 2fr 3fr !important;
-}
-
-.double-width {
-  width: calc(var(--sidebar-width) * 2) !important;
-}
-
 /* Main container */
-#container {
+body {
   background-color: var(--light-blue-bg);
   display: grid;
-  grid-template-rows: 15vh 85vh;
+  grid-template-rows: 10vh 90vh;
   height: 100vh;
+  text-align: center;
   width: 100vw;
 }
 
-#game-container {
+#main-h1 {
+  font-size: xx-large;
+}
+
+main {
   display: grid;
-  grid-template-columns: 1fr 4fr 1fr;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.game {
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  margin: 0 auto;
+  max-height: 20vh;
+  max-width: 50vh;
+  width: 80%;
+}
+
+.game:hover {
+  transform: scale(1.1);
 }
